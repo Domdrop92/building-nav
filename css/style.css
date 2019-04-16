@@ -63,6 +63,10 @@ li {
     float: left;
     padding: 14px 16px;
 }
+
+li:hover{
+    font: 30;
+}
 .center{
     text-align: center;
 }
@@ -70,12 +74,13 @@ li {
 
 /*content*/
 .content {
-    height: 85px;
+    height: 85vh;
 }
 /*end content*/
 
-
-
+.social-size {
+    font-size: 40px;
+    
 
 /*footer*/
 .footer {
@@ -86,3 +91,4 @@ li {
     height: 50px;
     margin-bottom: 0;
 }
+/*end footer*/
