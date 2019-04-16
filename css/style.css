@@ -1,0 +1,94 @@
+.box{
+    height: 100px;
+    width: 200px;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.purple{
+    background-color: purple;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear-left{
+    clear: left;
+}
+.clear-right{
+    clear: right;
+}
+.clear-both{
+    clear: both;
+}
+
+
+/* Nav styles */
+.main-nav {
+    height: 75px;
+    background-color: gray;
+}
+
+.logo {
+    height: 56px;
+    padding: 10px;
+}
+
+.logo-hover {
+    width: 85px;
+}
+
+.nav-list {
+    float: right;
+    list-style-type: none;
+}
+
+li {
+    color: #fff;
+    float: left;
+    padding: 14px 16px;
+}
+
+li:hover{
+    font: 30;
+}
+.center{
+    text-align: center;
+}
+/*End Nav styles*/
+
+/*content*/
+.content {
+    height: 85vh;
+}
+/*end content*/
+
+.social-size {
+    font-size: 40px;
+    
+
+/*footer*/
+.footer {
+    background-color: brown;
+}
+
+.social-media {
+    height: 50px;
+    margin-bottom: 0;
+}
+/*end footer*/
