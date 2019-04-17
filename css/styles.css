@@ -150,3 +150,25 @@ a {
     text-decoration: none;
 }
 /*end footer*/
+
+/*devices with screen width <= 768px*/
+
+@media (max-width: 768px){
+    .button {
+        font-size: 18px;
+    }
+}
+
+/* 768px to 1024px, set font size to 22px*/
+@media (min-width: 768px) and (max-width: 1024px){
+    .button {
+        font-size: 22px;
+    }
+}
+
+/* screen size greater than 1024px*/
+@media (min-width: 1024px) and (max-width: 1024px){
+    .button {
+        font-size: 24;
+    }
+}
