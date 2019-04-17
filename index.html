@@ -7,66 +7,63 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link rel="stylesheet" href="css/styles.css">
+
     <title>Building a Nav</title>
 </head>
 
 <body>
+      <nav class="main-nav">
+          <img src="images/random pic.png" alt="cool picture" class="logo">
 
-    <body>
-        <nav class="main-nav">
-            <img src="images/random pic.png" alt="cool picture" class="logo">
+          <ul class="nav-list">
+              <li class="center">Home</li>
+              <li class="center">About</li>
+              <li class="center">Contact</li>
+          </ul>
+      </nav>
 
-            <ul class="nav-list">
-                <li class="center">Home</li>
-                <li class="center">About</li>
-                <li class="center">Contact</li>
-            </ul>
-        </nav>
+      <div class="content left">
 
-        <div class="content left">
+          <map class="map">
+              <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.603340567745!2d-119.78799278471205!3d36.73208657996256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e26d4f58091%3A0xf082a7e633ee41f0!2s700+Van+Ness+Ave%2C+Fresno%2C+CA+93721!5e0!3m2!1sen!2sus!4v1555384319611!5m2!1sen!2sus"
+                  width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>"
+          </map>
+          <div class="audio margin-0-auto">
+              <audio controls>
+                  <source src="lightsaber.wav" type="audio/wav">
+              </audio>
+          </div>
 
-            <map class="map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.603340567745!2d-119.78799278471205!3d36.73208657996256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e26d4f58091%3A0xf082a7e633ee41f0!2s700+Van+Ness+Ave%2C+Fresno%2C+CA+93721!5e0!3m2!1sen!2sus!4v1555384319611!5m2!1sen!2sus"
-                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>"
-            </map>
-            <div class="audio margin-0-auto">
-                <audio controls>
-                    <source src="lightsaber.wav" type="audio/wav">
-                </audio>
-            </div>
+          <div class="video margin-0-auto">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
 
-            <div class="video margin-0-auto">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+              <!-- local video file-->
+              <!--<video controls class="video-local">
+              <source src="" type="video/mp4">
+          </video> -->
+          </div>
 
-                <!-- local video file-->
-                <!--<video controls class="video-local">
-                <source src="" type="video/mp4">
-            </video> -->
-            </div>
+          <button class="button button-success button-small">Submit</button>
+          <button class="button button-default button-small">Reset</button>
+          <button class="button button-danger">Cancel</button>
+      </div>
 
-            <button class="button button-success button-small">Submit</button>
-            <button class="button button-default button-small">Reset</button>
-            <button class="button button-danger">Cancel</button>
-        </div>
-
-        <footer class="footer">
-            <ul class="social-media">
-                <li>
-                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook social-size"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram social-size"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter social-size"></i></a>
-                </li>
-            </ul>
-        </footer>
-    </body>
-
-</body>
+      <footer class="footer">
+          <ul class="social-media">
+              <li>
+                  <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook social-size"></i></a>
+              </li>
+              <li>
+                  <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram social-size"></i></a>
+              </li>
+              <li>
+                  <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter social-size"></i></a>
+              </li>
+          </ul>
+      </footer>
+  </body>
 
 </html>
