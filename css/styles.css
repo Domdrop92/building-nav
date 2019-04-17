@@ -58,6 +58,10 @@
     list-style-type: none;
 }
 
+.no-list-style {
+    list-style-type: none;
+}
+
 li {
     color: #fff;
     float: left;
@@ -74,10 +78,57 @@ li:hover{
 
 /*content, how much of the page it takes up*/
 .content {
-    height: 40vh;
+    height: 800px;
     padding: 0 50px;
-
 }
+
+.map-frame{
+    width: 100%;
+}
+
+.audio{
+    width: 300px;
+}
+
+.video{
+    width: 560px;
+}
+
+.margin-0-auto {
+    margin: 0 auto;
+}
+
+.button{
+    font-size: 24px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.button-success {
+    
+    border: 1px solid #ccc;
+    background: green;
+    width: 150px;
+}
+
+.button-default{
+    background: #ccc;
+    color: black;
+}
+.button-danger {
+    
+    width: 250px;
+    background: red;
+    border: none;
+}
+
+
+.button-small {
+    width: 150;
+}
+
 /*end content*/
 
 .social-size {
@@ -86,11 +137,16 @@ li:hover{
 
 /*footer*/
 .footer {
-    background-color: brown;
+    background-color: white;
 }
 
 .social-media {
     height: 50px;
     margin-bottom: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 /*end footer*/
