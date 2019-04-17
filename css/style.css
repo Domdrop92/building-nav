@@ -72,15 +72,17 @@ li:hover{
 }
 /*End Nav styles*/
 
-/*content*/
+/*content, how much of the page it takes up*/
 .content {
-    height: 85vh;
+    height: 40vh;
+    padding: 0 50px;
+
 }
 /*end content*/
 
 .social-size {
     font-size: 40px;
-    
+}  
 
 /*footer*/
 .footer {
