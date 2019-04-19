@@ -129,6 +129,22 @@ li:hover{
     width: 150;
 }
 
+span {
+    background-color: green;
+}
+
+.family > span > span {
+    background-color: orange;
+}
+
+.second-span ~ .first-span {
+    color: red;
+}
+
+ul.social-media > li {
+    padding: 20px 24px;
+}
+
 /*end content*/
 
 .social-size {
